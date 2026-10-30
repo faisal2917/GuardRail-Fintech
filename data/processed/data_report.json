@@ -1,0 +1,37 @@
+{
+  "rows_raw": 284807,
+  "frauds_raw": 492,
+  "dropped_missing": 0,
+  "dropped_invalid": 0,
+  "dropped_duplicates": 1081,
+  "rows_clean": 283726,
+  "frauds_clean": 473,
+  "fraud_rate": 0.001667101358352777,
+  "prepared_at": "2026-10-30T07:22:56+00:00",
+  "source": "creditcard.csv",
+  "seed": 42,
+  "splits": {
+    "train": {
+      "rows": 198608,
+      "frauds": 331
+    },
+    "val": {
+      "rows": 42559,
+      "frauds": 71
+    },
+    "test": {
+      "rows": 42559,
+      "frauds": 71
+    }
+  },
+  "amount": {
+    "count": 283726.0,
+    "mean": 88.47,
+    "std": 250.4,
+    "min": 0.0,
+    "25%": 5.6,
+    "50%": 22.0,
+    "75%": 77.51,
+    "max": 25691.16
+  }
+}
